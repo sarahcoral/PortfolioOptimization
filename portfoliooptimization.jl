@@ -53,7 +53,7 @@ md"""
 
 # ╔═╡ ba439e0c-e70f-4b96-9c43-88c3cb71b4b5
 #retornos diarios para 2023 de nuestro portafolio teórico
-returns = CSV.read("C:\\Users\\Sarah\\Documents\\UNAL_2024_AND_ON\\Intro Opti\\Portfolio Optimization\\returns2023.csv", header=1, delim=',', DataFrame)
+returns = CSV.read("returns2023.csv", header=1, delim=',', DataFrame)
 
 # ╔═╡ 3d76e205-5572-44c4-a72b-1f425fb7994b
 begin
